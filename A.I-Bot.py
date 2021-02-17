@@ -50,11 +50,10 @@ def hear():
 
 def whatsapp():
     contact = {
-        "amit sir": '+91 6204 409 648',
-        "kirti mam": '+91 90212 07642',
-        "minakshi daga":'+91 98000 82858',
-        "amit": '+91 79797 46837',
-        "rat": '+91 80029 29190'
+        """Enter your all contacts here"""
+        """Write like this
+        "enter the name here such as (Iron Man)": "enter the number here such as (+91 222222555....)", !important add a comma after adding a contact
+        """
     }
     print("Where to be sent...")
     where = hear().lower()
