@@ -126,21 +126,6 @@ def starting_the_command(info):
         print(f"The sum is {sum}")
         speak(f"The sum is {sum}")
 
-    elif "minus" or "subtract" or "-" in info:
-        if "minus" in info:
-            get = info.split("minus")
-        
-        elif "suntract" in info:
-            get = info.split("subtract")
-
-        elif "-" in info:
-            get = info.split("-")
-
-        subtraction = int(info[0]) - int(info[1])
-
-        print(f"The subtraction is {subtraction}")
-        speak(f"The subtraction is {subtraction}")
-
     elif "quit" in info:
         speak('By sir. Thanks for using me')
         sys.exit('BY')
